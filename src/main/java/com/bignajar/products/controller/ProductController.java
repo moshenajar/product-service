@@ -17,6 +17,7 @@ public class ProductController {
 	@Autowired
 	private ProductService productService;
 
+	/**/
 	@GetMapping("/products")
 	@CrossOrigin
 	@ResponseStatus(HttpStatus.OK)
